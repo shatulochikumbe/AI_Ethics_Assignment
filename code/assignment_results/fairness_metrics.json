@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-12-01T19:06:57.784713",
+  "dataset_info": {
+    "total_samples": 7214,
+    "training_samples": 3694,
+    "test_samples": 1584,
+    "features_used": [
+      "risk_binary",
+      "recidivism_binary",
+      "privileged_group",
+      "priors_count",
+      "age",
+      "juv_fel_count",
+      "juv_misd_count",
+      "juv_other_count"
+    ]
+  },
+  "model_performance": {},
+  "fairness_analysis": {
+    "African-American": {
+      "n": 953,
+      "accuracy": 0.7250786988457503,
+      "fpr": 0.2871287128712871,
+      "fnr": 0.2659380692167577,
+      "tpr": 0.7340619307832422,
+      "pred_high_risk": 0.5445960125918153,
+      "actual_high_risk": 0.5760755508919203,
+      "false_positives": 
